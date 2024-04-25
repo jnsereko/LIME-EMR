@@ -6,5 +6,25 @@
         "redirect": "#"
       }
     ]
+  },
+  "@openmrs/esm-patient-registration-app": {
+    "fieldDefinitions": [
+      {
+        "id": "emergencyContact",
+        "type": "person attribute",
+        "uuid": "cd36e567-7bec-465c-9a3e-32684861c17c",
+        "placeholder": "placeholder",
+        "answerConceptSetUuid": "12634919-8592-428f-8ae3-f14518d914c5"
+      }
+    ],
+    "sectionDefinitions": [
+      {
+        "id": "relationships",
+        "name": "Relationships",
+        "fields": [
+          "emergencyContact"
+        ]
+      }
+    ]
   }
 }

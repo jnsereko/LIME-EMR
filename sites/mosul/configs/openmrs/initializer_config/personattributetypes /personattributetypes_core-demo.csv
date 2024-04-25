@@ -1,3 +1,4 @@
 Uuid,Void/Retire,Name,Description,Format,Foreign,Searchable
-14d4f066-15f5-102d-96e4-000c29c2a5d7,0,Telephone Number,The telephone number for the person,java.lang.String,,,
+14d4f066-15f5-102d-96e4-000c29c2a5d7,,Telephone Number,The telephone number for the person,java.lang.String,,,
 8b56eac7-5c76-4b9c-8c6f-1deab8d3fc47,,Unknown patient,Used to flag patients that cannot be identified during the check-in process,java.lang.String,,,
+cd36e567-7bec-465c-9a3e-32684861c17c,,Emergency contact,Is this an Emergency Contact?,Is this an Emergency Contact?,org.openmrs.Concept,12634919-8592-428f-8ae3-f14518d914c5,,,
