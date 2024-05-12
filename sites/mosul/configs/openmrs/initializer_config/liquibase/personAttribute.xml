@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+  <changeSet author="msf (generated)" id="msf-30"> 
+    <insert tableName="person_attribute_type">
+      <column name="uuid" value="bc851ec1-9fb7-49da-acd7-1a61168002fe"/>
+      <column name="name" value="Telephone Number"/>
+      <column name="description" value="The telephone number for the person"/>
+      <column name="format" value="java.lang.String"/>
+      <column name="foreign_key" valueNumeric=""/>
+      <column name="searchable" valueBoolean=""/>
+      <column name="retired" valueBoolean="false"/>
+      <column name="retired_by" valueNumeric=""/>
+      <column name="date_retired" value=""/>
+      <column name="retire_reason" value=""/>
+    </insert>
+
+    <insert tableName="person_attribute_type">
+      <column name="uuid" value="4404b363-0c1e-427d-8b35-5f0d85708bcc"/>
+      <column name="name" value="Individual Email Address"/>
+      <column name="description" value="The email address for the person"/>
+      <column name="format" value="java.lang.String"/>
+      <column name="foreign_key" valueNumeric=""/>
+      <column name="searchable" valueBoolean=""/>
+      <column name="retired" valueBoolean="false"/>
+      <column name="retired_by" valueNumeric=""/>
+      <column name="date_retired" value=""/>
+      <column name="retire_reason" value=""/>
+    </insert>
+
+    <insert tableName="person_attribute_type">
+      <column name="uuid" value="bc851ec1-9fb7-49da-acd7-1a61168002fe"/>
+      <column name="name" value="Unknown Patient Name"/>
+      <column name="description" value="Used to flag patients that cannot be identified during the check-in process"/>
+      <column name="format" value="java.lang.String"/>
+      <column name="foreign_key" valueNumeric=""/>
+      <column name="searchable" valueBoolean=""/>
+      <column name="retired" valueBoolean="false"/>
+      <column name="retired_by" valueNumeric=""/>
+      <column name="date_retired" value=""/>
+      <column name="retire_reason" value=""/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>

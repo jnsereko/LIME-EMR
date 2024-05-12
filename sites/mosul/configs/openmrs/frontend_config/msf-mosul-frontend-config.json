@@ -55,7 +55,7 @@
       {
         "id": "email",
         "type": "person attribute",
-        "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
+        "uuid": "4404b363-0c1e-427d-8b35-5f0d85708bcc",
         "label": "Email Address",
         "validation": {
           "required": false,

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<!-- personAttribute -->
+	<include file="personAttribute.xml" relativeToChangelogFile="true"/>
+
+	<!-- Encounter Types -->
+	<changeSet id="trying-initialiser-000" author="test">
+		<comment>
+			Set encounter type 'Scheduled' UUID
+		</comment>
+		<update tableName="person_attribute_type">
+			<column name="uuid" value="8d871386-c2cc-22de-8d13-0010c6dffd0g" />
+			<where>name='Race'</where>
+		</update>
+	</changeSet>
+</databaseChangeLog>
