@@ -1,6 +1,0 @@
-services:
-
-  mysql:
-    command: "mysqld --character-set-server=utf8 --collation-server=utf8_general_ci --log-bin --binlog-format=ROW  --server-id=2 --sync-binlog=1 --binlog-annotate-row-events=0 --log-bin-trust-function-creators=ON"
-    volumes:
-      - "${SQL_SCRIPTS_PATH}/person_attribute_types.sql:/docker-entrypoint-initdb.d/person_attribute_types.sql"
