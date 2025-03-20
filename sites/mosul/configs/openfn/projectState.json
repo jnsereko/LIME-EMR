@@ -307,6 +307,5 @@
         }
       }
     }
-  },
-  "requires_mfa": false
+  }
 }
